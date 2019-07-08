@@ -3,14 +3,14 @@ from .models import ExpressInfo
 import celery
 
 @celery.task
-def meiduo_place_order(data):
+def meiduo_place_order(data, staff_id):
     mp = MeiduoExpress()
     res = mp.place_order(data)
 
-    if res['Success']:
+    if res.get('Success'):
         ExpressInfo.objects.create(
             order_id = res['Order']['OrderCode'],
-            staff_id = data['Sender']['id'],
+            staff_id = staff_id,
             logistic_code = res['Order']['LogisticCode']
         )
         return True

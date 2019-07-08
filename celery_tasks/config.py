@@ -13,7 +13,6 @@ CELERY_TASK_RESULT_EXPIRES = 60 * 60 * 24               # 任务过期时间，�
 CELERY_ACCEPT_CONTENT = ['json','pickle']               # 指定接受的内容类型
 
 CELERY_IMPORTS = (                                  # 指定导入的任务模块
-    'celery_tasks.express.tasks',
     'celery_tasks.sms.tasks',
     'celery_tasks.email_active.tasks',
 )
