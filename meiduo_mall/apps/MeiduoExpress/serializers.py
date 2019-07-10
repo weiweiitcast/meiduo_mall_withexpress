@@ -30,3 +30,11 @@ class PlaceOrderSerializer(serializers.Serializer):
     Receiver = UserSerializer()
     Commodity = CommoditySerializer(many=True)
     Quantity = serializers.IntegerField()
+
+    def validate(self, attrs):
+        if attrs.get("ShipperCode") == "ZTO":
+            attrs['CustomerName'] = 'testzto'
+            attrs['CustomerPwd'] = 'testztopwd'
+        return attrs
+
+

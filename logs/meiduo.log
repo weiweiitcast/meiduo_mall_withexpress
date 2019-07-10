@@ -43351,3 +43351,498 @@ INFO 2019-07-07 17:26:26,373 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/
 WARNING 2019-07-07 17:26:26,455 base 152 Not Found: /meiduo_admin/express/
 WARNING 2019-07-07 17:26:26,457 basehttp 124 "POST /meiduo_admin/express/ HTTP/1.1" 404 16812
 WARNING 2019-07-07 17:26:26,501 basehttp 124 "POST /meiduo_admin/goods/channels/ HTTP/1.1" 400 177
+INFO 2019-07-09 14:44:24,258 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+WARNING 2019-07-09 14:44:24,336 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+WARNING 2019-07-09 14:44:28,380 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+INFO 2019-07-09 14:44:36,951 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+WARNING 2019-07-09 14:44:36,968 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+INFO 2019-07-09 14:46:41,761 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:41,916 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 216
+INFO 2019-07-09 14:46:42,189 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,196 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,199 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,202 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,203 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,207 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,211 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,212 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:42,422 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,423 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,423 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,435 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,435 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,466 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 14:46:42,500 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-07-09 14:46:42,543 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-07-09 14:46:51,050 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:51,102 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 14:46:53,011 basehttp 124 "OPTIONS /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:46:53,052 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 14:59:06,056 basehttp 124 "OPTIONS /meiduo_admin/orders/undefined/ HTTP/1.1" 200 0
+WARNING 2019-07-09 14:59:06,103 base 152 Not Found: /meiduo_admin/orders/undefined/
+WARNING 2019-07-09 14:59:06,108 basehttp 124 "GET /meiduo_admin/orders/undefined/ HTTP/1.1" 404 16838
+INFO 2019-07-09 14:59:08,455 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 14:59:08,502 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 14:59:09,791 basehttp 124 "OPTIONS /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 0
+INFO 2019-07-09 14:59:09,826 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:00:27,601 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 15:00:27,645 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:00:28,572 basehttp 124 "OPTIONS /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:00:28,613 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:00:38,044 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:01:00,750 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:01:46,461 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:01:53,553 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:02:44,337 basehttp 124 "OPTIONS /meiduo_admin/orders/20190406122652000000001/status/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:02:44,370 basehttp 124 "PATCH /meiduo_admin/orders/20190406122652000000001/status/ HTTP/1.1" 200 98
+INFO 2019-07-09 15:02:44,424 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:02:49,035 basehttp 124 "PATCH /meiduo_admin/orders/20190406122652000000001/status/ HTTP/1.1" 200 98
+INFO 2019-07-09 15:02:49,084 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:03:02,436 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:03:16,950 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:04:42,344 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:08:05,214 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:08:05,219 basehttp 124 "OPTIONS /meiduo_admin/permission/content_types/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:08:05,227 basehttp 124 "OPTIONS /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 0
+INFO 2019-07-09 15:08:05,311 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 1047
+INFO 2019-07-09 15:08:05,311 basehttp 124 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10&ordering=id HTTP/1.1" 200 878
+INFO 2019-07-09 15:08:05,332 basehttp 124 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 1047
+INFO 2019-07-09 15:08:05,783 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:08:08,546 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:08:09,608 basehttp 124 "GET /meiduo_admin/orders/20190406122652000000001/ HTTP/1.1" 200 479
+INFO 2019-07-09 15:08:10,129 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:08:11,275 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:10:23,183 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 15:10:23,231 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:10:47,880 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 15:10:47,961 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:10:55,110 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 15:10:55,141 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:11:16,296 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:11:16,303 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:11:16,304 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:11:16,307 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:11:16,310 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-07-09 15:11:16,357 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-07-09 15:11:16,393 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-07-09 15:11:16,445 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-07-09 15:11:16,446 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-07-09 15:11:16,515 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-07-09 15:12:15,498 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,501 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,509 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,511 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,511 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,516 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,523 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,528 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-07-09 15:12:15,560 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,568 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,581 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,594 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,595 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-07-09 15:12:15,628 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,630 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:12:15,665 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-07-09 15:13:36,242 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,250 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,268 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-07-09 15:13:36,276 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,311 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,330 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,367 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 31
+INFO 2019-07-09 15:13:36,405 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-07-09 15:13:43,371 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 153
+INFO 2019-07-09 15:13:47,044 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-07-09 15:13:47,051 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-07-09 15:13:47,098 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2019-07-09 15:13:47,109 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 975
+INFO 2019-07-09 15:13:47,167 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6664
+INFO 2019-07-10 11:32:44,457 basehttp 124 "POST /express/place_order/ HTTP/1.1" 200 15
+WARNING 2019-07-10 11:41:15,057 base 152 Not Found: /meiduoexpress
+WARNING 2019-07-10 11:41:15,059 basehttp 124 "GET /meiduoexpress HTTP/1.1" 404 8405
+WARNING 2019-07-10 11:41:15,243 base 152 Not Found: /favicon.ico
+WARNING 2019-07-10 11:41:15,244 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8399
+WARNING 2019-07-10 11:42:15,164 base 152 Not Found: /meiduoexpress
+WARNING 2019-07-10 11:42:15,165 basehttp 124 "GET /meiduoexpress HTTP/1.1" 404 8405
+WARNING 2019-07-10 11:42:21,854 base 152 Not Found: /meiduoexpress
+WARNING 2019-07-10 11:42:21,855 basehttp 124 "GET /meiduoexpress HTTP/1.1" 404 8405
+WARNING 2019-07-10 11:42:23,837 base 152 Not Found: /meiduoexpress/fewfew
+WARNING 2019-07-10 11:42:23,839 basehttp 124 "GET /meiduoexpress/fewfew HTTP/1.1" 404 8426
+INFO 2019-07-10 11:42:51,681 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 11:42:52,808 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 11:42:53,852 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+WARNING 2019-07-10 11:44:00,598 base 152 Not Found: /meiduo_express/fewfew
+WARNING 2019-07-10 11:44:00,599 basehttp 124 "GET /meiduo_express/fewfew HTTP/1.1" 404 8741
+WARNING 2019-07-10 11:44:30,584 base 152 Not Found: /meiduo_express/fewfew
+WARNING 2019-07-10 11:44:30,585 basehttp 124 "GET /meiduo_express/fewfew HTTP/1.1" 404 8762
+INFO 2019-07-10 11:45:23,919 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 11:53:35,295 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+WARNING 2019-07-10 12:01:59,114 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 401 31
+WARNING 2019-07-10 12:04:36,967 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+WARNING 2019-07-10 12:05:00,185 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+WARNING 2019-07-10 12:06:31,561 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 400 67
+INFO 2019-07-10 12:08:17,746 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 216
+WARNING 2019-07-10 12:09:50,355 base 152 Not Found: /meiduo_express/place_order/
+WARNING 2019-07-10 12:09:50,365 basehttp 124 "POST /meiduo_express/place_order/ HTTP/1.1" 404 8781
+INFO 2019-07-10 12:10:00,656 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+WARNING 2019-07-10 12:10:45,844 base 152 Not Found: /meiduo_express/express/(
+WARNING 2019-07-10 12:10:45,845 basehttp 124 "POST /meiduo_express/express/(?P%3Corder_id%3E%5Cd+%29/prompt_check/ HTTP/1.1" 404 8810
+WARNING 2019-07-10 12:11:12,632 base 152 Not Found: /meiduo_express/place_order/
+WARNING 2019-07-10 12:11:12,632 basehttp 124 "POST /meiduo_express/place_order/ HTTP/1.1" 404 8781
+INFO 2019-07-10 12:11:21,119 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+ERROR 2019-07-10 12:12:07,174 exception 135 Internal Server Error: /meiduo_express/express/20190406122652000000001/prompt_check/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: prompt_check() got an unexpected keyword argument 'pk'
+ERROR 2019-07-10 12:12:07,262 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/prompt_check/ HTTP/1.1" 500 18604
+WARNING 2019-07-10 12:12:31,552 base 152 Not Found: /meiduo_express/fewfew
+WARNING 2019-07-10 12:12:31,555 basehttp 124 "GET /meiduo_express/fewfew HTTP/1.1" 404 8762
+ERROR 2019-07-10 12:13:41,764 exception 135 Internal Server Error: /meiduo_express/express/20190406122652000000001/prompt_check/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/weiwei/Desktop/BK/meiduo_mall/meiduo_mall/apps/MeiduoExpress/views.py", line 37, in prompt_check
+    "OrderCode": order_id,
+NameError: name 'order_id' is not defined
+ERROR 2019-07-10 12:13:41,831 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/prompt_check/ HTTP/1.1" 500 18698
+ERROR 2019-07-10 12:14:26,249 exception 135 Internal Server Error: /meiduo_express/express/20190406122652000000001/prompt_check/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-07-10 12:14:26,356 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/prompt_check/ HTTP/1.1" 500 86008
+INFO 2019-07-10 12:15:12,703 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/prompt_check/ HTTP/1.1" 200 839
+INFO 2019-07-10 12:27:25,720 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/prompt_check/ HTTP/1.1" 200 839
+INFO 2019-07-10 13:18:59,274 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-07-10 13:18:59,391 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-07-10 13:18:59,398 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 120
+INFO 2019-07-10 13:18:59,400 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-07-10 13:18:59,405 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-07-10 13:18:59,412 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-07-10 13:18:59,413 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-07-10 13:18:59,414 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-07-10 13:18:59,472 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-07-10 13:18:59,544 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-07-10 13:18:59,569 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1418
+INFO 2019-07-10 13:18:59,733 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2019-07-10 13:19:00,189 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-07-10 13:19:00,246 base 152 Not Found: /favicon.ico
+WARNING 2019-07-10 13:19:00,247 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8399
+INFO 2019-07-10 13:19:02,514 basehttp 124 "GET /carts/ HTTP/1.1" 200 4360
+INFO 2019-07-10 13:19:02,535 basehttp 124 "GET /static/js/cart.js HTTP/1.1" 200 8784
+INFO 2019-07-10 13:19:03,859 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 302 0
+INFO 2019-07-10 13:19:03,869 basehttp 124 "GET /login/?next=/orders/settlement/ HTTP/1.1" 200 3605
+INFO 2019-07-10 13:19:03,888 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-07-10 13:19:03,889 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-07-10 13:19:03,903 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-07-10 13:19:03,904 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-07-10 13:19:03,907 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2019-07-10 13:19:07,087 basehttp 124 "POST /login/?next=/orders/settlement/ HTTP/1.1" 302 0
+INFO 2019-07-10 13:19:07,120 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 4707
+INFO 2019-07-10 13:19:07,136 basehttp 124 "GET /static/js/place_order.js HTTP/1.1" 200 2173
+INFO 2019-07-10 13:19:07,143 basehttp 124 "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO 2019-07-10 13:19:08,597 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8294
+INFO 2019-07-10 13:19:08,615 basehttp 124 "GET /static/js/user_center_site.js HTTP/1.1" 200 13616
+INFO 2019-07-10 13:19:08,627 basehttp 124 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2019-07-10 13:19:08,627 basehttp 124 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2019-07-10 13:19:08,732 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-10 13:19:22,375 basehttp 124 "GET /areas/?area_id=430000 HTTP/1.1" 200 789
+INFO 2019-07-10 13:19:26,209 basehttp 124 "GET /areas/?area_id=440000 HTTP/1.1" 200 1063
+INFO 2019-07-10 13:19:31,345 basehttp 124 "GET /areas/?area_id=440300 HTTP/1.1" 200 373
+INFO 2019-07-10 13:20:01,958 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 353
+INFO 2019-07-10 13:20:03,032 basehttp 124 "PUT /addresses/2/default/ HTTP/1.1" 200 29
+ERROR 2019-07-10 13:20:30,737 exception 135 Internal Server Error: /meiduo_express/express/20190406122652000000001/userinfo/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/template/response.py", line 107, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 180, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <Area: 深圳市> is not JSON serializable
+ERROR 2019-07-10 13:20:30,875 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/userinfo/ HTTP/1.1" 500 110204
+INFO 2019-07-10 13:22:29,212 basehttp 124 "GET /meiduo_express/express/20190406122652000000001/userinfo/ HTTP/1.1" 200 294
+INFO 2019-07-10 13:31:17,560 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-07-10 13:31:18,326 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+WARNING 2019-07-10 13:31:18,368 base 152 Not Found: /favicon.ico
+WARNING 2019-07-10 13:31:18,370 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 8399
+INFO 2019-07-10 13:31:26,181 basehttp 124 "GET /logout/ HTTP/1.1" 302 0
+INFO 2019-07-10 13:31:26,189 basehttp 124 "GET /login/ HTTP/1.1" 200 3605
+INFO 2019-07-10 13:32:32,718 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-07-10 13:32:33,130 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-07-10 13:32:33,462 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-07-10 13:32:36,778 basehttp 124 "GET /list/115/1/ HTTP/1.1" 200 102083
+INFO 2019-07-10 13:32:36,794 basehttp 124 "GET /static/css/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2019-07-10 13:32:36,831 basehttp 124 "GET /static/js/list.js HTTP/1.1" 200 1870
+INFO 2019-07-10 13:32:36,832 basehttp 124 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2019-07-10 13:32:36,843 basehttp 124 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2019-07-10 13:32:36,985 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-07-10 13:32:36,994 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-07-10 13:32:38,110 basehttp 124 "GET /detail/6/ HTTP/1.1" 200 105515
+INFO 2019-07-10 13:32:38,125 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2019-07-10 13:32:38,154 basehttp 124 "GET /static/js/detail.js HTTP/1.1" 200 6412
+INFO 2019-07-10 13:32:38,157 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2019-07-10 13:32:38,180 basehttp 124 "GET /static/images/selected.png HTTP/1.1" 200 1060
+INFO 2019-07-10 13:32:38,181 basehttp 124 "GET /static/images/cat.jpg HTTP/1.1" 200 4333
+INFO 2019-07-10 13:32:38,402 basehttp 124 "GET /comment/6/ HTTP/1.1" 200 55
+INFO 2019-07-10 13:32:38,402 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 46
+INFO 2019-07-10 13:32:38,403 basehttp 124 "POST /browse_histories/ HTTP/1.1" 200 29
+INFO 2019-07-10 13:32:38,404 basehttp 124 "GET /hot/115/ HTTP/1.1" 200 588
+INFO 2019-07-10 13:32:38,417 basehttp 124 "POST /detail/visit/115/ HTTP/1.1" 200 29
+INFO 2019-07-10 13:32:42,964 basehttp 124 "POST /carts/ HTTP/1.1" 200 29
+INFO 2019-07-10 13:32:47,212 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-07-10 13:32:47,581 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 294
+INFO 2019-07-10 13:32:48,744 basehttp 124 "GET /carts/ HTTP/1.1" 200 4640
+INFO 2019-07-10 13:32:50,875 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5273
+INFO 2019-07-10 13:32:52,278 basehttp 124 "GET /addresses/ HTTP/1.1" 200 8296
+INFO 2019-07-10 13:32:52,325 basehttp 124 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2019-07-10 13:33:00,363 basehttp 124 "GET /areas/?area_id=340000 HTTP/1.1" 200 839
+INFO 2019-07-10 13:33:01,646 basehttp 124 "GET /areas/?area_id=340200 HTTP/1.1" 200 465
+INFO 2019-07-10 13:33:21,242 basehttp 124 "POST /addresses/create/ HTTP/1.1" 200 365
+INFO 2019-07-10 13:33:22,858 basehttp 124 "PUT /addresses/3/default/ HTTP/1.1" 200 29
+INFO 2019-07-10 13:33:36,768 basehttp 124 "GET / HTTP/1.1" 200 124657
+INFO 2019-07-10 13:33:37,116 basehttp 124 "GET /carts/simple/ HTTP/1.1" 200 294
+INFO 2019-07-10 13:33:37,796 basehttp 124 "GET /carts/ HTTP/1.1" 200 4640
+INFO 2019-07-10 13:33:38,819 basehttp 124 "GET /orders/settlement/ HTTP/1.1" 200 5613
+INFO 2019-07-10 13:33:40,494 basehttp 124 "POST /orders/commit/ HTTP/1.1" 200 68
+INFO 2019-07-10 13:33:40,522 basehttp 124 "GET /orders/success/?order_id=20190710133340000000005&payment_amount=39950&pay_method=2 HTTP/1.1" 200 3555
+INFO 2019-07-10 13:33:40,536 basehttp 124 "GET /static/js/order_success.js HTTP/1.1" 200 1073
+INFO 2019-07-10 13:33:40,545 basehttp 124 "GET /static/images/success.png HTTP/1.1" 200 2738
+INFO 2019-07-10 13:33:42,459 basehttp 124 "GET /payment/20190710133340000000005/ HTTP/1.1" 200 921
+INFO 2019-07-10 13:34:40,922 basehttp 124 "GET /meiduo_express/express/20190710133340000000005/userinfo/ HTTP/1.1" 200 297
+WARNING 2019-07-10 13:35:21,991 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 400 108
+WARNING 2019-07-10 13:35:37,139 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 400 76
+ERROR 2019-07-10 13:36:42,673 exception 135 Internal Server Error: /meiduo_express/express/20190710133340000000005/userinfo/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 471, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 389, in initial
+    self.check_permissions(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 321, in check_permissions
+    for permission in self.get_permissions():
+TypeError: 'NoneType' object is not iterable
+ERROR 2019-07-10 13:36:42,745 basehttp 124 "POST /meiduo_express/express/20190710133340000000005/userinfo/ HTTP/1.1" 500 18902
+INFO 2019-07-10 13:36:48,096 basehttp 124 "GET /meiduo_express/express/20190710133340000000005/userinfo/ HTTP/1.1" 200 319
+WARNING 2019-07-10 13:37:18,916 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 400 76
+WARNING 2019-07-10 13:37:37,722 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 400 76
+WARNING 2019-07-10 13:37:49,335 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 400 76
+INFO 2019-07-10 13:40:11,055 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:40:55,675 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:41:17,871 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:41:42,176 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:41:55,886 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+ERROR 2019-07-10 13:42:55,189 exception 135 Internal Server Error: /meiduo_express/express/place_order/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/weiwei/Desktop/BK/meiduo_mall/meiduo_mall/apps/MeiduoExpress/views.py", line 56, in place_order
+    meiduo_place_order.delay(ps.data, staff_id=request.user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/celery/app/task.py", line 461, in delay
+    return self.apply_async(args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/celery/app/task.py", line 573, in apply_async
+    **dict(self._get_exec_options(), **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/celery/app/base.py", line 354, in send_task
+    reply_to=reply_to or self.oid, **options
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/celery/app/amqp.py", line 310, in publish_task
+    **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/messaging.py", line 172, in publish
+    routing_key, mandatory, immediate, exchange, declare)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/connection.py", line 449, in _ensured
+    return fun(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/messaging.py", line 188, in _publish
+    mandatory=mandatory, immediate=immediate,
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/transport/virtual/__init__.py", line 521, in basic_publish
+    message, exchange, routing_key, **kwargs
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/transport/virtual/exchange.py", line 60, in deliver
+    for queue in _lookup(exchange, routing_key):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/transport/virtual/__init__.py", line 612, in _lookup
+    self.get_table(exchange),
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/kombu/transport/redis.py", line 760, in get_table
+    raise InconsistencyError(NO_ROUTE_ERROR.format(exchange, key))
+kombu.exceptions.InconsistencyError: 
+Cannot route message for exchange 'celery': Table empty or key no longer exists.
+Probably the key ('_kombu.binding.celery') has been removed from the Redis database.
+
+ERROR 2019-07-10 13:42:55,234 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 500 20947
+INFO 2019-07-10 13:43:12,456 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:49:36,606 basehttp 124 "GET /meiduo_express/express/20190710133340000000005/prompt_check/ HTTP/1.1" 200 839
+INFO 2019-07-10 13:50:43,180 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:53:42,092 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+ERROR 2019-07-10 13:57:01,249 exception 135 Internal Server Error: /meiduo_express/express/place_order/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2019-07-10 13:57:01,347 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 500 85340
+INFO 2019-07-10 13:57:20,591 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:57:45,761 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 13:58:18,912 basehttp 124 "GET /meiduo_express/express/20190710133340000000005/prompt_check/ HTTP/1.1" 200 839
+INFO 2019-07-10 14:09:00,196 basehttp 124 "GET /meiduo_express/express/20190710133340000000005/prompt_check/ HTTP/1.1" 200 839
+INFO 2019-07-10 14:09:54,418 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+ERROR 2019-07-10 14:10:42,523 exception 135 Internal Server Error: /meiduo_express/express/place_order/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/weiwei/Desktop/BK/meiduo_mall/meiduo_mall/apps/MeiduoExpress/views.py", line 59, in place_order
+    res = mp.place_order(data)
+NameError: name 'data' is not defined
+ERROR 2019-07-10 14:10:42,647 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 500 18594
+INFO 2019-07-10 14:10:57,887 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 14:11:23,883 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 14:15:53,771 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+ERROR 2019-07-10 14:21:12,580 exception 135 Internal Server Error: /meiduo_express/express/place_order/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/weiwei/Desktop/BK/meiduo_mall/meiduo_mall/apps/MeiduoExpress/views.py", line 64, in place_order
+    staff_id=staff_id,
+NameError: name 'staff_id' is not defined
+ERROR 2019-07-10 14:21:12,681 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 500 18602
+ERROR 2019-07-10 14:21:34,084 exception 135 Internal Server Error: /meiduo_express/express/place_order/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'bool'>`
+ERROR 2019-07-10 14:21:34,177 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 500 85324
+INFO 2019-07-10 14:21:58,970 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15
+INFO 2019-07-10 14:24:35,157 basehttp 124 "POST /meiduo_express/express/place_order/ HTTP/1.1" 200 15

@@ -31,5 +31,5 @@ urlpatterns = [
     url('^', include('payments.urls')),
 
     url('^meiduo_admin/', include('meiduo_admin.urls')),
-    url('^express/', include('MeiduoExpress.urls')),
+    url('^meiduo_express/', include('MeiduoExpress.urls')),
 ]

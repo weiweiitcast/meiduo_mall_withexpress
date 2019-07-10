@@ -11,7 +11,8 @@ def meiduo_place_order(data, staff_id):
         ExpressInfo.objects.create(
             order_id = res['Order']['OrderCode'],
             staff_id = staff_id,
-            logistic_code = res['Order']['LogisticCode']
+            logistic_code = res['Order']['LogisticCode'],
+            shipper_code = res['Order']['ShipperCode']
         )
         return True
 
